@@ -9,12 +9,9 @@
   "author": "hongsi",
   "license": "ISC",
   "dependencies": {
-    "chokidar": "^3.5.3",
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "morgan": "^1.10.0",
-    "nunjucks": "^3.2.4",
     "request": "^2.88.2"
   }
 }
