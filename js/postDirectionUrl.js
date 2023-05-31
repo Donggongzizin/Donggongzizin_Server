@@ -1,10 +1,11 @@
 const request = require('request');
 
+/** Send kakao map url and safari url of route to client and shelter */
 module.exports = async(startinglat,startinglng,endlat,endlng,place_name) => {
     return new Promise((resolve,reject) =>{
         const options = {
             'method': 'POST',
-            'url': 'http://203.253.128.177:7579/Mobius/KETIDGZ/mylocation',
+            'url': 'http://203.253.128.177:7579/Mobius/KETIDGZ/locationURL',
             'headers': {
               'Accept': 'application/json',
               'X-M2M-RI': '12345',

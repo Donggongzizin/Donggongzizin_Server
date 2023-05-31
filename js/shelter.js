@@ -1,4 +1,4 @@
-
+/** Shelter information that meets the conditions */
 let shelter = [
     {
         "place_name": "순천향대학교 대운동장",

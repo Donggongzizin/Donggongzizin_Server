@@ -1,5 +1,5 @@
 const {shelter} = require('./shelter')
-
+/** Calculating the distance to the shelter using the stored shelter information and the location information of the client */
 
 function getDistance(lat1, lon1, lat2, lon2) {
     const earthRadius = 6371; // 지구 반지름 (단위: km)

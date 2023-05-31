@@ -2,6 +2,7 @@ const request = require('request');
 const smalletDistance = require('./smallestDistance');
 const {newShelter} = require('./checkdistance');
 
+/** Function to find shelter information around the client using Kakao rest api */
 module.exports = async(lat,lng) => {   
         return new Promise((resolve, reject) => {
             var options = {

@@ -1,3 +1,5 @@
+/** Shelter information that meets the conditions */
+
 module.exports = async(shelter) => {
     let minDistance = parseInt(shelter[0].distance, 10);
     let minDistancelat = shelter[0].y;
@@ -13,7 +15,5 @@ module.exports = async(shelter) => {
             minPlaceName = shelter[i].place_name;
         }
     }
-    console.log('min distance' , minDistance);
-
     return {minDistancelat,minDistancelng,minPlaceName}
 }
